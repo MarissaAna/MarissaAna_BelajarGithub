@@ -1,4 +1,5 @@
 import "./App.css";
+import peopleImage from '../src/people.jpg';
 
 function App() {
   return (
@@ -15,6 +16,10 @@ function App() {
             information about Marissa Ana and my journey in learning Git and
             GitHub.
           </p>
+        </section>
+        <section>
+          <p>Halo ini adalah section tambahan dari Tafif</p>
+          <img src={peopleImage} alt="halo" />
         </section>
       </main>
     </div>
