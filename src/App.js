@@ -21,6 +21,9 @@ function App() {
           <p>Halo ini adalah section tambahan dari Tafif</p>
           <img src={peopleImage} alt="halo" />
         </section>
+        <section>
+          <h5>Ini adalah section sementara</h5>
+        </section>
       </main>
     </div>
   );
